@@ -86,6 +86,17 @@ map(function, iterable)
 
 * *note:* We can also pass multiple iterables if our function accepts multiple arguments.
 
+# Filter
+
+The filter() method filters the given sequence with the help of a function that tests each element in the sequence to be true or not.
+
+## Syntaxe of filter
+
+filter(function, sequence)
+
+* *function:* A function that defines the condition to filter the elements. This function should return True for items you want to keep and False for those tou want to exclude.
+* *iterable:* The iterable you wnat to filter
+
 # Teste
 
 Test config of git in local repository in my machine
