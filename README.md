@@ -28,6 +28,17 @@ Function adds a counter o each item in a list of other iterable. It turns the it
 
 enumerate(iterable, start=0)
 
+# Any
+
+Python any() function returns True if any of the elements of a given iterable (list, dictionary, tuple, set, ect) are tuple elese is returns False
+
+## Syntax of any()
+
+any(iterable)
+
+* Iterable: object such as a dictionary, tuple, list, set, etc.
+*Returns:* Retuns True if any the items is True.
+
 # Teste
 
 Test config of git in local repository in my machine
