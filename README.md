@@ -11,6 +11,14 @@ I've created a simple live example of using list comprehension, which is very im
 
 [expression for intem in iterable if condition]
 
+# Zip 
+
+The zip() function in Python combines multiple iterables such as list, tuples, strings, dict, into a single iterator of tuples. Each tuple contains elements from the input iterables that are at the same position.
+
+
+## Syntax of zip()
+
+zip(*iterables)
 
 # Teste
 
