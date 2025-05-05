@@ -39,6 +39,16 @@ any(iterable)
 * Iterable: object such as a dictionary, tuple, list, set, etc.
 *Returns:* Retuns True if any the items is True.
 
+# All
+
+The Python all() function returns true if all the elements of a given iterable (list, dictionary, tuple, set, etc) are True otherwise it return False. It also ruturns True if the iterable object is empty.
+
+## Syntax of all()
+
+all(iterable)
+
+* Iterable: It is an iterable object such as a dictionaru, tuple, list, set
+
 # Teste
 
 Test config of git in local repository in my machine
