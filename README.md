@@ -61,6 +61,16 @@ sorted(iterable, key=None, reverse=False)
 * Key (optional): A function to execute for deciding the order of elements. By default it is *None*
 * reverse (optional): If *True,* sorts in descending order. Defaults value is *False* (ascending order)
 
+# Lambda Functions
+
+Python Lambda Functions are anonymous functions means that the function is without a name. As we already know the keyword is used to define a nomrmal function in Python. Similary, the lambda keyword is used to define an anonymous function in Python.
+
+## Syntaxe of Lambda
+
+* *lambda:* The keyword to define the function.
+* *arguments:* A comma-separated list of input parameters (like in a regular function).
+* *expression:* A single expression that is evaluated and returned.
+
 # Teste
 
 Test config of git in local repository in my machine
