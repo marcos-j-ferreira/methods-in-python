@@ -20,6 +20,14 @@ The zip() function in Python combines multiple iterables such as list, tuples, s
 
 zip(*iterables)
 
+# Enumerate
+
+Function adds a counter o each item in a list of other iterable. It turns the iterable into something we can loop through, where each item comes with its number (starting from 0 by default).
+
+## Syntax of enumerate()
+
+enumerate(iterable, start=0)
+
 # Teste
 
 Test config of git in local repository in my machine
