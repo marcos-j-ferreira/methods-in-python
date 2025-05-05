@@ -71,6 +71,21 @@ Python Lambda Functions are anonymous functions means that the function is witho
 * *arguments:* A comma-separated list of input parameters (like in a regular function).
 * *expression:* A single expression that is evaluated and returned.
 
+# Map 
+
+The map() is used to apply a given function to every item of an *iterable,* such as a list or tuple, and returns a *map object* (which is an iterator).
+
+## Syntaxe of map
+
+map(function, iterable)
+
+*Parameter*
+
+* *function:* The function we want to apply to every element of the iterable.
+* *iterable:* The iterable whose elements we wnat to process.
+
+* *note:* We can also pass multiple iterables if our function accepts multiple arguments.
+
 # Teste
 
 Test config of git in local repository in my machine
