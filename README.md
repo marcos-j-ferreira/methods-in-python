@@ -5,6 +5,11 @@ One review of some methods in Python, with a project for consolidating understan
 # list-comprehension
 
 Is a way to create lists using a concise syntax. It allows us to generate a new list by applying an expression to each item in an existing iterable (such as a list or range).
+I've created a simple live example of using list comprehension, which is very important for practicing and efficiency in programming, and for making code more readable.
+
+## Syntax of list comprehension
+
+[expression for intem in iterable if condition]
 
 
 # Teste
