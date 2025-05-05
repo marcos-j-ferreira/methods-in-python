@@ -49,6 +49,18 @@ all(iterable)
 
 * Iterable: It is an iterable object such as a dictionaru, tuple, list, set
 
+# Sorted
+
+Sorted() function returns a new sorted list from the elements of any iterable like (list, tuples, string). It creaes and returns a new sorted list and leaves the original iterable unchanged.
+
+## Syntax of sorted()
+
+sorted(iterable, key=None, reverse=False)
+
+* Iterable: The sequence to be sorted. This can be a list, tuple, set, string, or any other iterable.
+* Key (optional): A function to execute for deciding the order of elements. By default it is *None*
+* reverse (optional): If *True,* sorts in descending order. Defaults value is *False* (ascending order)
+
 # Teste
 
 Test config of git in local repository in my machine
