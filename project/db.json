@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Estudar Python",
-        "concluida": false
+        "concluida": true
     },
     {
         "id": 2,
@@ -12,6 +12,6 @@
     {
         "id": 3,
         "titulo": "Fazer um projeto",
-        "concluida": false
+        "concluida": true
     }
 ]
