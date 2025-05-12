@@ -21,9 +21,27 @@ class Animal:
     def setLugar(lugar):
         lugar = lugar
     
-    def oi(self):
+    def hello(self):
         print(f"Animal {self.nome}, vive na {self.lugar}")
 
 a1 = Animal("cachorro", "terra")
 
-a1.oi()    
+a1.hello()   
+
+class Cachorro(Animal):
+
+    def falar(self):
+        print(f"Cachorro {self.nome} diz: Au Au!" )
+
+
+b1 = Cachorro("hoy","casa")
+
+b1.falar()
+
+class Gato(Animal):
+
+    def hello(self):
+        print(f"{self.nome} diz: Miau, Miau")
+
+c1 = Gato("Red", "Casa")
+c1.hello()
